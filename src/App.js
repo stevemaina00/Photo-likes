@@ -17,6 +17,12 @@ import Footer from "./Footer";
 function App(){
   switch(window.location.pathname){
     case"/":
+    break
+    case "/Nav":
+      break
+      case "/App":
+        break
+        case "/Footer":
 
   }
   const [count, setCount] = useState(0, []);
