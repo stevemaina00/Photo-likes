@@ -13,6 +13,12 @@
   margin: 1rem;
   text-align: center;
 }
+.About{
+  box-sizing: border-box;
+  height: 500px;
+  width: 100%;
+  background-color: #e4e4e4;
+}
 .Nav{
   display: flex;
   font-size: large;

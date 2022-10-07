@@ -13,6 +13,7 @@ import db from './db.json'
 import Timer from "./Timer";
 
 import Footer from "./Footer";
+import About from "./About";
 
 
 
@@ -51,8 +52,10 @@ function App(){
            
           }) 
         } </div>
-        
+
+        <About />
         <Footer/>
+        
      
        
         </div>
