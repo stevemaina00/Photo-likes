@@ -3,16 +3,21 @@ import React from 'react'
 // import './App.css';
 
 
+
 function Nav(){
+   
     return(
+        
         <div>
             <ul className="Nav">
+            
                 <li>Blake Photography App</li>
                 <li>Home</li>
-                <li a href="./App">Vote</li>
+                <li>Vote</li>
                 <li>Contact Us</li>
             </ul>
         </div>
     )
 }
+
 export default Nav;

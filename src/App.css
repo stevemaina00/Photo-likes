@@ -9,6 +9,10 @@
   width: 200px;
  margin: 50pX;  
 }
+.Container{
+  margin: 1rem;
+  text-align: center;
+}
 .Nav{
   display: flex;
   font-size: large;

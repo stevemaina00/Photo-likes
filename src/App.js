@@ -6,6 +6,7 @@ import React from "react";
 
 import "./index.css";
 import './App.css'
+import Home from "./Home";
 
 import Nav from './Nav'
 import db from './db.json'
@@ -14,21 +15,14 @@ import Timer from "./Timer";
 import Footer from "./Footer";
 
 
-function App(){
-  switch(window.location.pathname){
-    case"/":
-    break
-    case "/Nav":
-      break
-      case "/App":
-        break
-        case "/Footer":
 
-  }
+function App(){
+
   const [count, setCount] = useState(0, []);
 
   return(
     <div className="container"> 
+    <Home />
       <div>
         <Nav />
       </div>
@@ -58,6 +52,10 @@ function App(){
         } </div>
         
         <Footer/>
+        <div className="Container">
+       
+        </div>
+       
         </div>
     </div>
   )
