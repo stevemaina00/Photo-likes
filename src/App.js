@@ -6,7 +6,6 @@ import React from "react";
 
 import "./index.css";
 import './App.css'
-// import Home from "./Home";
 
 import Nav from './Nav'
 import db from './db.json'
@@ -55,6 +54,7 @@ function App(){
 
         <About />
         <Footer/>
+    
         
      
        
