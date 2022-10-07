@@ -15,6 +15,10 @@ import Footer from "./Footer";
 
 
 function App(){
+  switch(window.location.pathname){
+    case"/":
+
+  }
   const [count, setCount] = useState(0, []);
 
   return(
