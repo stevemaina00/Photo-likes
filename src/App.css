@@ -15,9 +15,12 @@
 }
 .About{
   box-sizing: border-box;
-  height: 500px;
+  height: 200px;
   width: 100%;
-  background-color: #e4e4e4;
+  background-color: gray;
+  color: white;
+  text-align: center;
+
 }
 .Nav{
   display: flex;
